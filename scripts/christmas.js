@@ -139,5 +139,5 @@ const calculateTotalNumberOfGifts = function (schedule)
 	return totalNumberOfGifts;
 };
 
-export { calculateTotalNumberOfGiftsOnDay as calculateGiftsOnDay, calculateGiftSchedule, calculateTotalNumberOfGifts }
+export { calculateGiftSchedule, calculateTotalNumberOfGifts }
 
