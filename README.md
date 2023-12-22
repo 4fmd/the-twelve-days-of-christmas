@@ -4,6 +4,15 @@ This project provides an explanation of the recursive logic used to calculate th
 <details open>
 	<summary>Table of Contents</summary>
 
+- [The Twelve Days of Christmas Recursive Illustration](#the-twelve-days-of-christmas-recursive-illustration)
+    - [Overview](#overview)
+    - [Development](#development)
+      - [Web Server](#web-server)
+    - [Recursive Algorithm](#recursive-algorithm)
+      - [Recursion vs Iteration](#recursion-vs-iteration)
+    - [Algorithm Explanation](#algorithm-explanation)
+      - [Example Walkthrough](#example-walkthrough)
+
 </details>
 
 ### Overview
@@ -99,6 +108,7 @@ Consider the French hens given on day three as an example of how the recursion w
 9. The first recursive call to `calculateTotalNumberOfGiftsOnDay` continues execution andcan now perform its assignment of `numberOfGiftsOnThisDay`.  It adds its input day number (`2`) to the result returned from the second recursive call (`1`) and can the return its value of `3`.
 
 10. The original call to `calculateTotalNumberOfGiftsOnDay` can now resume its execution.  It received a value of `3` from the first recursive call, and can add that value to its day value (`3`) and return a result of `6`.
+
 
 
 
