@@ -1,0 +1,72 @@
+html
+{
+	font-family: "Sofia";
+
+	/* Dark background and light text, because who doens't like a dark theme */
+	background-color: rgba(16, 24, 32, 1.0);
+	color: rgba(255, 255, 255, 1.0);
+
+	/* Disable text selection */
+	user-select: none;
+}
+
+html, body
+{
+	/* Set the containers to fill the window */
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	outline: 0px none transparent;
+	border: 0px none transparent;
+}
+
+body, div#root
+{
+	/* Center the containers vertically */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+div#root
+{
+	/* Center the content horizontally */
+	width: 90%;
+	margin: 0px auto;
+}
+
+div#root h1
+{
+	font-size: 26px;
+	color: rgba(0, 135, 62, 1.0);
+}
+
+div#root table
+{
+	border-collapse: collapse;
+}
+
+div#root table td
+{
+	padding: 5px;
+}
+
+div#root table thead td
+{
+	text-align: center;
+	border-bottom: 2px solid rgba(214, 0, 28, 1.0);
+}
+
+div#root table thead td, div#root tbody tr:last-child td:first-child
+{
+	font-weight: bold;
+}
+
+div#root table tbody td
+{
+	text-align: right;
+}
+
